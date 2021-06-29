@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelTeniskiTurniri.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="GledalacSet">
+    <Key>
+      <PropertyRef Name="idg" />
+    </Key>
+    <Property Name="idg" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="IgracSet">
+    <Key>
+      <PropertyRef Name="idig" />
+    </Key>
+    <Property Name="idig" Type="int" Nullable="false" />
+    <Property Name="imei" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="przi" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="datri" Type="datetime" Nullable="false" />
+    <Property Name="drzi" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KategorijaSet">
+    <Key>
+      <PropertyRef Name="idkat" />
+    </Key>
+    <Property Name="idkat" Type="int" Nullable="false" />
+    <Property Name="nazkat" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KoloSet">
+    <Key>
+      <PropertyRef Name="idk" />
+      <PropertyRef Name="Odrzavanje_idod" />
+      <PropertyRef Name="OdrzavanjeTurnir_idtur" />
+    </Key>
+    <Property Name="idk" Type="int" Nullable="false" />
+    <Property Name="Odrzavanje_idod" Type="int" Nullable="false" />
+    <Property Name="OdrzavanjeTurnir_idtur" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MecSet">
+    <Key>
+      <PropertyRef Name="idm" />
+    </Key>
+    <Property Name="idm" Type="int" Nullable="false" />
+    <Property Name="datom" Type="datetime" Nullable="false" />
+    <Property Name="brg" Type="int" Nullable="false" />
+    <Property Name="stdm" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="imeig" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="przig" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Stadion_idst" Type="int" Nullable="false" />
+    <Property Name="Kolo_idk" Type="int" Nullable="false" />
+    <Property Name="KoloOdrzavanje_idod" Type="int" Nullable="false" />
+    <Property Name="KoloOdrzavanjeTurnir_idtur" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NagradaSet">
+    <Key>
+      <PropertyRef Name="idn" />
+    </Key>
+    <Property Name="idn" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nazn" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ObicnaUlaznicaSet">
+    <Key>
+      <PropertyRef Name="idou" />
+    </Key>
+    <Property Name="ozno" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="idou" Type="int" Nullable="false" />
+    <Property Name="Ulaznica_idu" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OdrzavanjeSet">
+    <Key>
+      <PropertyRef Name="idod" />
+      <PropertyRef Name="Turnir_idtur" />
+    </Key>
+    <Property Name="idod" Type="int" Nullable="false" />
+    <Property Name="datpo" Type="datetime" Nullable="false" />
+    <Property Name="datzo" Type="datetime" Nullable="false" />
+    <Property Name="Turnir_idtur" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OpremaSet">
+    <Key>
+      <PropertyRef Name="ido" />
+    </Key>
+    <Property Name="ido" Type="int" Nullable="false" />
+    <Property Name="nazo" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrganizatorSet">
+    <Key>
+      <PropertyRef Name="idor" />
+    </Key>
+    <Property Name="idor" Type="int" Nullable="false" />
+    <Property Name="nazor" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrganizatorTurnir">
+    <Key>
+      <PropertyRef Name="Organizator_idor" />
+      <PropertyRef Name="Turnir_idtur" />
+    </Key>
+    <Property Name="Organizator_idor" Type="int" Nullable="false" />
+    <Property Name="Turnir_idtur" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProdajeSet">
+    <Key>
+      <PropertyRef Name="Ulaznica_idu" />
+      <PropertyRef Name="Turnir_idtur" />
+    </Key>
+    <Property Name="Ulaznica_idu" Type="int" Nullable="false" />
+    <Property Name="Turnir_idtur" Type="int" Nullable="false" />
+    <Property Name="Gledalac_idg" Type="int" />
+  </EntityType>
+  <EntityType Name="StadionSet">
+    <Key>
+      <PropertyRef Name="idst" />
+    </Key>
+    <Property Name="idst" Type="int" Nullable="false" />
+    <Property Name="nazst" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TurnirGledalac">
+    <Key>
+      <PropertyRef Name="Turnir_idtur" />
+      <PropertyRef Name="Gledalac_idg" />
+    </Key>
+    <Property Name="Turnir_idtur" Type="int" Nullable="false" />
+    <Property Name="Gledalac_idg" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TurnirSet">
+    <Key>
+      <PropertyRef Name="idtur" />
+    </Key>
+    <Property Name="idtur" Type="int" Nullable="false" />
+    <Property Name="naztur" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="mestotur" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="datpt" Type="datetime" Nullable="false" />
+    <Property Name="datzt" Type="datetime" Nullable="false" />
+    <Property Name="Kategorija_idkat" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UcestvujeMec">
+    <Key>
+      <PropertyRef Name="Ucestvuje_Igrac_idig" />
+      <PropertyRef Name="Ucestvuje_Turnir_idtur" />
+      <PropertyRef Name="Mec_idm" />
+    </Key>
+    <Property Name="Ucestvuje_Igrac_idig" Type="int" Nullable="false" />
+    <Property Name="Ucestvuje_Turnir_idtur" Type="int" Nullable="false" />
+    <Property Name="Mec_idm" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UcestvujeSet">
+    <Key>
+      <PropertyRef Name="Igrac_idig" />
+      <PropertyRef Name="Turnir_idtur" />
+    </Key>
+    <Property Name="Igrac_idig" Type="int" Nullable="false" />
+    <Property Name="Nagrada_idn" Type="int" />
+    <Property Name="Turnir_idtur" Type="int" Nullable="false" />
+    <Property Name="Oprema_ido" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UlaznicaSet">
+    <Key>
+      <PropertyRef Name="idu" />
+    </Key>
+    <Property Name="idu" Type="int" Nullable="false" />
+    <Property Name="datom" Type="datetime" Nullable="false" />
+    <Property Name="vreme" Type="time" Precision="7" Nullable="false" />
+    <Property Name="brreda" Type="int" Nullable="false" />
+    <Property Name="brsed" Type="int" Nullable="false" />
+    <Property Name="tipu" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VipUlaznicaSet">
+    <Key>
+      <PropertyRef Name="idvu" />
+    </Key>
+    <Property Name="oznv" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="idvu" Type="int" Nullable="false" />
+    <Property Name="Ulaznica_idu" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_GledalacProdaje">
+    <End Role="GledalacSet" Type="Self.GledalacSet" Multiplicity="0..1" />
+    <End Role="ProdajeSet" Type="Self.ProdajeSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GledalacSet">
+        <PropertyRef Name="idg" />
+      </Principal>
+      <Dependent Role="ProdajeSet">
+        <PropertyRef Name="Gledalac_idg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_IgracUcestvuje">
+    <End Role="IgracSet" Type="Self.IgracSet" Multiplicity="1" />
+    <End Role="UcestvujeSet" Type="Self.UcestvujeSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="IgracSet">
+        <PropertyRef Name="idig" />
+      </Principal>
+      <Dependent Role="UcestvujeSet">
+        <PropertyRef Name="Igrac_idig" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KoloOdrzavanje">
+    <End Role="OdrzavanjeSet" Type="Self.OdrzavanjeSet" Multiplicity="1" />
+    <End Role="KoloSet" Type="Self.KoloSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OdrzavanjeSet">
+        <PropertyRef Name="idod" />
+        <PropertyRef Name="Turnir_idtur" />
+      </Principal>
+      <Dependent Role="KoloSet">
+        <PropertyRef Name="Odrzavanje_idod" />
+        <PropertyRef Name="OdrzavanjeTurnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MecKolo">
+    <End Role="KoloSet" Type="Self.KoloSet" Multiplicity="1" />
+    <End Role="MecSet" Type="Self.MecSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KoloSet">
+        <PropertyRef Name="idk" />
+        <PropertyRef Name="Odrzavanje_idod" />
+        <PropertyRef Name="OdrzavanjeTurnir_idtur" />
+      </Principal>
+      <Dependent Role="MecSet">
+        <PropertyRef Name="Kolo_idk" />
+        <PropertyRef Name="KoloOdrzavanje_idod" />
+        <PropertyRef Name="KoloOdrzavanjeTurnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MecStadion">
+    <End Role="StadionSet" Type="Self.StadionSet" Multiplicity="1" />
+    <End Role="MecSet" Type="Self.MecSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StadionSet">
+        <PropertyRef Name="idst" />
+      </Principal>
+      <Dependent Role="MecSet">
+        <PropertyRef Name="Stadion_idst" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NagradaUcestvuje">
+    <End Role="NagradaSet" Type="Self.NagradaSet" Multiplicity="0..1" />
+    <End Role="UcestvujeSet" Type="Self.UcestvujeSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NagradaSet">
+        <PropertyRef Name="idn" />
+      </Principal>
+      <Dependent Role="UcestvujeSet">
+        <PropertyRef Name="Nagrada_idn" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrganizatorTurnir_Organizator">
+    <End Role="OrganizatorSet" Type="Self.OrganizatorSet" Multiplicity="1" />
+    <End Role="OrganizatorTurnir" Type="Self.OrganizatorTurnir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrganizatorSet">
+        <PropertyRef Name="idor" />
+      </Principal>
+      <Dependent Role="OrganizatorTurnir">
+        <PropertyRef Name="Organizator_idor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrganizatorTurnir_Turnir">
+    <End Role="TurnirSet" Type="Self.TurnirSet" Multiplicity="1" />
+    <End Role="OrganizatorTurnir" Type="Self.OrganizatorTurnir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TurnirSet">
+        <PropertyRef Name="idtur" />
+      </Principal>
+      <Dependent Role="OrganizatorTurnir">
+        <PropertyRef Name="Turnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProdajeTurnir">
+    <End Role="TurnirSet" Type="Self.TurnirSet" Multiplicity="1" />
+    <End Role="ProdajeSet" Type="Self.ProdajeSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TurnirSet">
+        <PropertyRef Name="idtur" />
+      </Principal>
+      <Dependent Role="ProdajeSet">
+        <PropertyRef Name="Turnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TurnirGledalac_Gledalac">
+    <End Role="GledalacSet" Type="Self.GledalacSet" Multiplicity="1" />
+    <End Role="TurnirGledalac" Type="Self.TurnirGledalac" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GledalacSet">
+        <PropertyRef Name="idg" />
+      </Principal>
+      <Dependent Role="TurnirGledalac">
+        <PropertyRef Name="Gledalac_idg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TurnirGledalac_Turnir">
+    <End Role="TurnirSet" Type="Self.TurnirSet" Multiplicity="1" />
+    <End Role="TurnirGledalac" Type="Self.TurnirGledalac" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TurnirSet">
+        <PropertyRef Name="idtur" />
+      </Principal>
+      <Dependent Role="TurnirGledalac">
+        <PropertyRef Name="Turnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TurnirKategorija">
+    <End Role="KategorijaSet" Type="Self.KategorijaSet" Multiplicity="1" />
+    <End Role="TurnirSet" Type="Self.TurnirSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KategorijaSet">
+        <PropertyRef Name="idkat" />
+      </Principal>
+      <Dependent Role="TurnirSet">
+        <PropertyRef Name="Kategorija_idkat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TurnirOdrzavanje">
+    <End Role="TurnirSet" Type="Self.TurnirSet" Multiplicity="1" />
+    <End Role="OdrzavanjeSet" Type="Self.OdrzavanjeSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TurnirSet">
+        <PropertyRef Name="idtur" />
+      </Principal>
+      <Dependent Role="OdrzavanjeSet">
+        <PropertyRef Name="Turnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UcestvujeMec_Mec">
+    <End Role="MecSet" Type="Self.MecSet" Multiplicity="1" />
+    <End Role="UcestvujeMec" Type="Self.UcestvujeMec" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MecSet">
+        <PropertyRef Name="idm" />
+      </Principal>
+      <Dependent Role="UcestvujeMec">
+        <PropertyRef Name="Mec_idm" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UcestvujeMec_Ucestvuje">
+    <End Role="UcestvujeSet" Type="Self.UcestvujeSet" Multiplicity="1" />
+    <End Role="UcestvujeMec" Type="Self.UcestvujeMec" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UcestvujeSet">
+        <PropertyRef Name="Igrac_idig" />
+        <PropertyRef Name="Turnir_idtur" />
+      </Principal>
+      <Dependent Role="UcestvujeMec">
+        <PropertyRef Name="Ucestvuje_Igrac_idig" />
+        <PropertyRef Name="Ucestvuje_Turnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UcestvujeOprema">
+    <End Role="OpremaSet" Type="Self.OpremaSet" Multiplicity="1" />
+    <End Role="UcestvujeSet" Type="Self.UcestvujeSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OpremaSet">
+        <PropertyRef Name="ido" />
+      </Principal>
+      <Dependent Role="UcestvujeSet">
+        <PropertyRef Name="Oprema_ido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UcestvujeTurnir">
+    <End Role="TurnirSet" Type="Self.TurnirSet" Multiplicity="1" />
+    <End Role="UcestvujeSet" Type="Self.UcestvujeSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TurnirSet">
+        <PropertyRef Name="idtur" />
+      </Principal>
+      <Dependent Role="UcestvujeSet">
+        <PropertyRef Name="Turnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UlaznicaObicnaUlaznica">
+    <End Role="UlaznicaSet" Type="Self.UlaznicaSet" Multiplicity="1" />
+    <End Role="ObicnaUlaznicaSet" Type="Self.ObicnaUlaznicaSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UlaznicaSet">
+        <PropertyRef Name="idu" />
+      </Principal>
+      <Dependent Role="ObicnaUlaznicaSet">
+        <PropertyRef Name="Ulaznica_idu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UlaznicaProdaje">
+    <End Role="UlaznicaSet" Type="Self.UlaznicaSet" Multiplicity="1" />
+    <End Role="ProdajeSet" Type="Self.ProdajeSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UlaznicaSet">
+        <PropertyRef Name="idu" />
+      </Principal>
+      <Dependent Role="ProdajeSet">
+        <PropertyRef Name="Ulaznica_idu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UlaznicaVipUlaznica">
+    <End Role="UlaznicaSet" Type="Self.UlaznicaSet" Multiplicity="1" />
+    <End Role="VipUlaznicaSet" Type="Self.VipUlaznicaSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UlaznicaSet">
+        <PropertyRef Name="idu" />
+      </Principal>
+      <Dependent Role="VipUlaznicaSet">
+        <PropertyRef Name="Ulaznica_idu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="Funkcija1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="nazivmesta" Type="varchar(max)" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="naztur" Type="varchar(max)" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="Procedure1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id1" Type="int" Mode="In" />
+    <Parameter Name="naziv" Type="varchar(max)" Mode="In" />
+  </Function>
+  <EntityContainer Name="ModelTeniskiTurniriStoreContainer">
+    <EntitySet Name="GledalacSet" EntityType="Self.GledalacSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IgracSet" EntityType="Self.IgracSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KategorijaSet" EntityType="Self.KategorijaSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KoloSet" EntityType="Self.KoloSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MecSet" EntityType="Self.MecSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NagradaSet" EntityType="Self.NagradaSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ObicnaUlaznicaSet" EntityType="Self.ObicnaUlaznicaSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OdrzavanjeSet" EntityType="Self.OdrzavanjeSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OpremaSet" EntityType="Self.OpremaSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrganizatorSet" EntityType="Self.OrganizatorSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrganizatorTurnir" EntityType="Self.OrganizatorTurnir" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProdajeSet" EntityType="Self.ProdajeSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StadionSet" EntityType="Self.StadionSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TurnirGledalac" EntityType="Self.TurnirGledalac" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TurnirSet" EntityType="Self.TurnirSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UcestvujeMec" EntityType="Self.UcestvujeMec" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UcestvujeSet" EntityType="Self.UcestvujeSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UlaznicaSet" EntityType="Self.UlaznicaSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VipUlaznicaSet" EntityType="Self.VipUlaznicaSet" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_GledalacProdaje" Association="Self.FK_GledalacProdaje">
+      <End Role="GledalacSet" EntitySet="GledalacSet" />
+      <End Role="ProdajeSet" EntitySet="ProdajeSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IgracUcestvuje" Association="Self.FK_IgracUcestvuje">
+      <End Role="IgracSet" EntitySet="IgracSet" />
+      <End Role="UcestvujeSet" EntitySet="UcestvujeSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KoloOdrzavanje" Association="Self.FK_KoloOdrzavanje">
+      <End Role="OdrzavanjeSet" EntitySet="OdrzavanjeSet" />
+      <End Role="KoloSet" EntitySet="KoloSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MecKolo" Association="Self.FK_MecKolo">
+      <End Role="KoloSet" EntitySet="KoloSet" />
+      <End Role="MecSet" EntitySet="MecSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MecStadion" Association="Self.FK_MecStadion">
+      <End Role="StadionSet" EntitySet="StadionSet" />
+      <End Role="MecSet" EntitySet="MecSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NagradaUcestvuje" Association="Self.FK_NagradaUcestvuje">
+      <End Role="NagradaSet" EntitySet="NagradaSet" />
+      <End Role="UcestvujeSet" EntitySet="UcestvujeSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrganizatorTurnir_Organizator" Association="Self.FK_OrganizatorTurnir_Organizator">
+      <End Role="OrganizatorSet" EntitySet="OrganizatorSet" />
+      <End Role="OrganizatorTurnir" EntitySet="OrganizatorTurnir" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrganizatorTurnir_Turnir" Association="Self.FK_OrganizatorTurnir_Turnir">
+      <End Role="TurnirSet" EntitySet="TurnirSet" />
+      <End Role="OrganizatorTurnir" EntitySet="OrganizatorTurnir" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProdajeTurnir" Association="Self.FK_ProdajeTurnir">
+      <End Role="TurnirSet" EntitySet="TurnirSet" />
+      <End Role="ProdajeSet" EntitySet="ProdajeSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TurnirGledalac_Gledalac" Association="Self.FK_TurnirGledalac_Gledalac">
+      <End Role="GledalacSet" EntitySet="GledalacSet" />
+      <End Role="TurnirGledalac" EntitySet="TurnirGledalac" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TurnirGledalac_Turnir" Association="Self.FK_TurnirGledalac_Turnir">
+      <End Role="TurnirSet" EntitySet="TurnirSet" />
+      <End Role="TurnirGledalac" EntitySet="TurnirGledalac" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TurnirKategorija" Association="Self.FK_TurnirKategorija">
+      <End Role="KategorijaSet" EntitySet="KategorijaSet" />
+      <End Role="TurnirSet" EntitySet="TurnirSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TurnirOdrzavanje" Association="Self.FK_TurnirOdrzavanje">
+      <End Role="TurnirSet" EntitySet="TurnirSet" />
+      <End Role="OdrzavanjeSet" EntitySet="OdrzavanjeSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UcestvujeMec_Mec" Association="Self.FK_UcestvujeMec_Mec">
+      <End Role="MecSet" EntitySet="MecSet" />
+      <End Role="UcestvujeMec" EntitySet="UcestvujeMec" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UcestvujeMec_Ucestvuje" Association="Self.FK_UcestvujeMec_Ucestvuje">
+      <End Role="UcestvujeSet" EntitySet="UcestvujeSet" />
+      <End Role="UcestvujeMec" EntitySet="UcestvujeMec" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UcestvujeOprema" Association="Self.FK_UcestvujeOprema">
+      <End Role="OpremaSet" EntitySet="OpremaSet" />
+      <End Role="UcestvujeSet" EntitySet="UcestvujeSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UcestvujeTurnir" Association="Self.FK_UcestvujeTurnir">
+      <End Role="TurnirSet" EntitySet="TurnirSet" />
+      <End Role="UcestvujeSet" EntitySet="UcestvujeSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UlaznicaObicnaUlaznica" Association="Self.FK_UlaznicaObicnaUlaznica">
+      <End Role="UlaznicaSet" EntitySet="UlaznicaSet" />
+      <End Role="ObicnaUlaznicaSet" EntitySet="ObicnaUlaznicaSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UlaznicaProdaje" Association="Self.FK_UlaznicaProdaje">
+      <End Role="UlaznicaSet" EntitySet="UlaznicaSet" />
+      <End Role="ProdajeSet" EntitySet="ProdajeSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UlaznicaVipUlaznica" Association="Self.FK_UlaznicaVipUlaznica">
+      <End Role="UlaznicaSet" EntitySet="UlaznicaSet" />
+      <End Role="VipUlaznicaSet" EntitySet="VipUlaznicaSet" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

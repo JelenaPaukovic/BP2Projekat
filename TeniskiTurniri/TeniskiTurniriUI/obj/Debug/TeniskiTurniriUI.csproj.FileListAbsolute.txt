@@ -1,0 +1,339 @@
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\bin\Debug\TeniskiTurniriUI.exe.config
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\bin\Debug\TeniskiTurniriUI.exe
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\bin\Debug\TeniskiTurniriUI.pdb
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\bin\Debug\EntityFramework.dll
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\bin\Debug\TeniskiTurniri.dll
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\bin\Debug\TeniskiTurniri.pdb
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\bin\Debug\TeniskiTurniri.dll.config
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\bin\Debug\EntityFramework.xml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csprojAssemblyReference.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\MainWindow.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\GledalacDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\GledalacIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\GledalacView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\IgracDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\IgracIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\IgracView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KategorijaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KategorijaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KategorijaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KoloDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KoloIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KoloView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\MecDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\MecIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\MecView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\NagradaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\NagradaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\NagradaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OpremaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OpremaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OpremaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OrganizatorDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OrganizatorIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OrganizatorView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\ProdajeView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\StadionDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\StadionIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\StadionView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\TurnirDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\TurnirIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\TurnirView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\UcestvujeView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\UlaznicaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\UlaznicaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\UlaznicaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\App.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI_MarkupCompile.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI_MarkupCompile.lref
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\MainWindow.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\GledalacDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\GledalacIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\GledalacView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\IgracDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\IgracIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\IgracView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KategorijaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KategorijaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KategorijaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KoloDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KoloIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\KoloView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\MecDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\MecIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\MecView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\NagradaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\NagradaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\NagradaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OpremaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OpremaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OpremaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OrganizatorDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OrganizatorIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\OrganizatorView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\ProdajeView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\StadionDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\StadionIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\StadionView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\TurnirDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\TurnirIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\TurnirView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\UcestvujeView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\UlaznicaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\UlaznicaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\UlaznicaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.g.resources
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.Properties.Resources.resources
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csproj.GenerateResource.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csproj.CoreCompileInputs.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csproj.CopyComplete
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.exe
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.pdb
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniriUI.exe.config
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniriUI.exe
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniriUI.pdb
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\bin\Debug\EntityFramework.dll
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniri.dll
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniri.pdb
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniri.dll.config
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\bin\Debug\EntityFramework.xml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csprojAssemblyReference.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\MainWindow.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\IgracDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\IgracIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\IgracView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KoloDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KoloIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KoloView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\MecDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\MecIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\MecView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\ProdajeView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\StadionDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\StadionIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\StadionView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\UcestvujeView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\App.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI_MarkupCompile.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI_MarkupCompile.lref
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\MainWindow.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\IgracDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\IgracIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\IgracView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KoloDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KoloIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\KoloView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\MecDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\MecIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\MecView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\ProdajeView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\StadionDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\StadionIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\StadionView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\UcestvujeView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.g.resources
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.Properties.Resources.resources
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csproj.GenerateResource.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csproj.CoreCompileInputs.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csproj.CopyComplete
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.exe
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.pdb
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\FunkcijaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy\TeniskiTurniriUI\obj\Debug\View\FunkcijaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniriUI.exe.config
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniriUI.exe
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniriUI.pdb
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\bin\Debug\EntityFramework.dll
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniri.dll
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniri.pdb
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\bin\Debug\TeniskiTurniri.dll.config
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\bin\Debug\EntityFramework.xml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csprojAssemblyReference.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\MainWindow.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\FunkcijaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\IgracDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\IgracIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\IgracView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KoloDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KoloIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KoloView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\MecDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\MecIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\MecView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\ProdajeView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\StadionDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\StadionIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\StadionView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\UcestvujeView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaDodajView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaIzmeniView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\App.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI_MarkupCompile.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI_MarkupCompile.lref
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\MainWindow.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\FunkcijaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\GledalacView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\IgracDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\IgracIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\IgracView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KategorijaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KoloDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KoloIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\KoloView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\MecDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\MecIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\MecView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\NagradaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\ObicnaUlaznicaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OdrzavanjeView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OpremaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\OrganizatorView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\ProdajeView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\StadionDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\StadionIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\StadionView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\TurnirView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\UcestvujeView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\UlaznicaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaDodajView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaIzmeniView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\View\VipUlaznicaView.baml
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.g.resources
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.Properties.Resources.resources
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csproj.GenerateResource.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csproj.CoreCompileInputs.cache
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.csproj.CopyComplete
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.exe
+C:\Users\Jelena\Desktop\TeniskiTurniri - Copy - Copy\TeniskiTurniriUI\obj\Debug\TeniskiTurniriUI.pdb
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\FunkcijaView.g.cs
+C:\Users\Jelena\Desktop\TeniskiTurniri\TeniskiTurniriUI\obj\Debug\View\FunkcijaView.baml

@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C701042-FF42-4536-BD8F-A2014ED826D4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TeniskiTurniriUI</RootNamespace>
+    <AssemblyName>TeniskiTurniriUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Model\BindableBase.cs" />
+    <Compile Include="Model\ElementCheckBox.cs" />
+    <Compile Include="Model\FunkcijaKlasa.cs" />
+    <Compile Include="Model\GledalacValidacija.cs" />
+    <Compile Include="Model\IgracValidacija.cs" />
+    <Compile Include="Model\KategorijaValidacija.cs" />
+    <Compile Include="Model\KoloValidacija.cs" />
+    <Compile Include="Model\MecValidacija.cs" />
+    <Compile Include="Model\MyICommand.cs" />
+    <Compile Include="Model\NagradaValidacija.cs" />
+    <Compile Include="Model\ObicnaUlaznicaValidacija.cs" />
+    <Compile Include="Model\OdrzavanjeValidacija.cs" />
+    <Compile Include="Model\OpremaValidacija.cs" />
+    <Compile Include="Model\OrganizatorValidacija.cs" />
+    <Compile Include="Model\StadionValidacija.cs" />
+    <Compile Include="Model\TurnirValidacija.cs" />
+    <Compile Include="Model\UlaznicaValidacija.cs" />
+    <Compile Include="Model\ValidationBase.cs" />
+    <Compile Include="Model\ValidationErrors.cs" />
+    <Compile Include="Model\VipUlaznicaValidacija.cs" />
+    <Compile Include="ViewModel\FunkcijaViewModel.cs" />
+    <Compile Include="ViewModel\GledalacDodajViewModel.cs" />
+    <Compile Include="ViewModel\GledalacIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\GledalacViewModel.cs" />
+    <Compile Include="ViewModel\IgracDodajViewModel.cs" />
+    <Compile Include="ViewModel\IgracIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\IgracViewModel.cs" />
+    <Compile Include="ViewModel\KategorijaDodajViewModel.cs" />
+    <Compile Include="ViewModel\KategorijaIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\KategorijaViewModel.cs" />
+    <Compile Include="ViewModel\KoloDodajViewModel.cs" />
+    <Compile Include="ViewModel\KoloIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\KoloViewModel.cs" />
+    <Compile Include="ViewModel\MecDodajViewModel.cs" />
+    <Compile Include="ViewModel\MecIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\MecViewModel.cs" />
+    <Compile Include="ViewModel\NagradaDodajViewModel.cs" />
+    <Compile Include="ViewModel\NagradaIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\NagradaViewModel.cs" />
+    <Compile Include="ViewModel\ObicnaUlaznicaDodajViewModel.cs" />
+    <Compile Include="ViewModel\ObicnaUlaznicaIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\ObicnaUlaznicaViewModel.cs" />
+    <Compile Include="ViewModel\OdrzavanjeDodajViewModel.cs" />
+    <Compile Include="ViewModel\OdrzavanjeIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\OdrzavanjeViewModel.cs" />
+    <Compile Include="ViewModel\OpremaDodajViewModel.cs" />
+    <Compile Include="ViewModel\OpremaIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\OpremaViewModel.cs" />
+    <Compile Include="ViewModel\OrganizatorDodajViewModel.cs" />
+    <Compile Include="ViewModel\OrganizatorIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\OrganizatorViewModel.cs" />
+    <Compile Include="ViewModel\PocetniViewModel.cs" />
+    <Compile Include="ViewModel\ProdajeViewModel.cs" />
+    <Compile Include="ViewModel\StadionDodajViewModel.cs" />
+    <Compile Include="ViewModel\StadionIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\StadionViewModel.cs" />
+    <Compile Include="ViewModel\TurnirDodajViewModel.cs" />
+    <Compile Include="ViewModel\TurnirIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\TurnirViewModel.cs" />
+    <Compile Include="ViewModel\UcestvujeViewModel.cs" />
+    <Compile Include="ViewModel\UlaznicaDodajViewModel.cs" />
+    <Compile Include="ViewModel\UlaznicaIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\UlaznicaViewModel.cs" />
+    <Compile Include="ViewModel\VipUlaznicaDodajViewModel.cs" />
+    <Compile Include="ViewModel\VipUlaznicaIzmeniViewModel.cs" />
+    <Compile Include="ViewModel\VipUlaznicaViewModel.cs" />
+    <Compile Include="View\FunkcijaView.xaml.cs">
+      <DependentUpon>FunkcijaView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GledalacDodajView.xaml.cs">
+      <DependentUpon>GledalacDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GledalacIzmeniView.xaml.cs">
+      <DependentUpon>GledalacIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GledalacView.xaml.cs">
+      <DependentUpon>GledalacView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\IgracDodajView.xaml.cs">
+      <DependentUpon>IgracDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\IgracIzmeniView.xaml.cs">
+      <DependentUpon>IgracIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\IgracView.xaml.cs">
+      <DependentUpon>IgracView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\KategorijaDodajView.xaml.cs">
+      <DependentUpon>KategorijaDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\KategorijaIzmeniView.xaml.cs">
+      <DependentUpon>KategorijaIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\KategorijaView.xaml.cs">
+      <DependentUpon>KategorijaView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\KoloDodajView.xaml.cs">
+      <DependentUpon>KoloDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\KoloIzmeniView.xaml.cs">
+      <DependentUpon>KoloIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\KoloView.xaml.cs">
+      <DependentUpon>KoloView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MecDodajView.xaml.cs">
+      <DependentUpon>MecDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MecIzmeniView.xaml.cs">
+      <DependentUpon>MecIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MecView.xaml.cs">
+      <DependentUpon>MecView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NagradaDodajView.xaml.cs">
+      <DependentUpon>NagradaDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NagradaIzmeniView.xaml.cs">
+      <DependentUpon>NagradaIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NagradaView.xaml.cs">
+      <DependentUpon>NagradaView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ObicnaUlaznicaDodajView.xaml.cs">
+      <DependentUpon>ObicnaUlaznicaDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ObicnaUlaznicaIzmeniView.xaml.cs">
+      <DependentUpon>ObicnaUlaznicaIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ObicnaUlaznicaView.xaml.cs">
+      <DependentUpon>ObicnaUlaznicaView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OdrzavanjeDodajView.xaml.cs">
+      <DependentUpon>OdrzavanjeDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OdrzavanjeIzmeniView.xaml.cs">
+      <DependentUpon>OdrzavanjeIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OdrzavanjeView.xaml.cs">
+      <DependentUpon>OdrzavanjeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OpremaDodajView.xaml.cs">
+      <DependentUpon>OpremaDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OpremaIzmeniView.xaml.cs">
+      <DependentUpon>OpremaIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OpremaView.xaml.cs">
+      <DependentUpon>OpremaView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OrganizatorDodajView.xaml.cs">
+      <DependentUpon>OrganizatorDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OrganizatorIzmeniView.xaml.cs">
+      <DependentUpon>OrganizatorIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OrganizatorView.xaml.cs">
+      <DependentUpon>OrganizatorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProdajeView.xaml.cs">
+      <DependentUpon>ProdajeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StadionDodajView.xaml.cs">
+      <DependentUpon>StadionDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StadionIzmeniView.xaml.cs">
+      <DependentUpon>StadionIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StadionView.xaml.cs">
+      <DependentUpon>StadionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TurnirDodajView.xaml.cs">
+      <DependentUpon>TurnirDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TurnirIzmeniView.xaml.cs">
+      <DependentUpon>TurnirIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TurnirView.xaml.cs">
+      <DependentUpon>TurnirView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UcestvujeView.xaml.cs">
+      <DependentUpon>UcestvujeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UlaznicaDodajView.xaml.cs">
+      <DependentUpon>UlaznicaDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UlaznicaIzmeniView.xaml.cs">
+      <DependentUpon>UlaznicaIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UlaznicaView.xaml.cs">
+      <DependentUpon>UlaznicaView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\VipUlaznicaDodajView.xaml.cs">
+      <DependentUpon>VipUlaznicaDodajView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\VipUlaznicaIzmeniView.xaml.cs">
+      <DependentUpon>VipUlaznicaIzmeniView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\VipUlaznicaView.xaml.cs">
+      <DependentUpon>VipUlaznicaView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\FunkcijaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GledalacDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GledalacIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GledalacView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\IgracDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\IgracIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\IgracView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\KategorijaDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\KategorijaIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\KategorijaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\KoloDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\KoloIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\KoloView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MecDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MecIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MecView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\NagradaDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\NagradaIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\NagradaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ObicnaUlaznicaDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ObicnaUlaznicaIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ObicnaUlaznicaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OdrzavanjeDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OdrzavanjeIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OdrzavanjeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OpremaDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OpremaIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OpremaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OrganizatorDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OrganizatorIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OrganizatorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ProdajeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\StadionDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\StadionIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\StadionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TurnirDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TurnirIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TurnirView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UcestvujeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UlaznicaDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UlaznicaIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UlaznicaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\VipUlaznicaDodajView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\VipUlaznicaIzmeniView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\VipUlaznicaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="tenis2.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\TeniskiTurniri\TeniskiTurniriDAO.csproj">
+      <Project>{24D4DEE7-8E1E-4011-BC75-20665FB3A069}</Project>
+      <Name>TeniskiTurniriDAO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

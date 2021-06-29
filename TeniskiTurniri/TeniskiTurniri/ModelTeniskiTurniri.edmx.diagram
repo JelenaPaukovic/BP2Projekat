@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3fb0af8e9d6a48d6bb948feff7ece8c9" Name="Diagram1" ZoomLevel="78" >
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Ulaznica" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Organizator" Width="1.5" PointX="2.375" PointY="0.5" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Nagrada" Width="1.5" PointX="2.5" PointY="6" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.VipUlaznica" Width="1.5" PointX="1.125" PointY="4" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.ObicnaUlaznica" Width="1.5" PointX="0.5" PointY="6.625" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Gledalac" Width="1.5" PointX="2.5" PointY="8.125" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Igrac" Width="1.5" PointX="5.75" PointY="6.125" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Kategorija" Width="1.5" PointX="5" PointY="4.125" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Stadion" Width="1.5" PointX="8.25" PointY="5.625" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Oprema" Width="1.5" PointX="10.25" PointY="4.5" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Prodaje" Width="1.5" PointX="4.5" PointY="0.875" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Ucestvuje" Width="1.5" PointX="7.625" PointY="1.25" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Turnir" Width="1.5" PointX="9.75" PointY="0.875" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Mec" Width="1.5" PointX="13" PointY="4.75" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Kolo" Width="1.5" PointX="11.75" PointY="0.5" />
+        <EntityTypeShape EntityType="ModelTeniskiTurniri.Odrzavanje" Width="1.5" PointX="14.25" PointY="1.5" />
+        <AssociationConnector Association="ModelTeniskiTurniri.UlaznicaVipUlaznica" />
+        <AssociationConnector Association="ModelTeniskiTurniri.UlaznicaObicnaUlaznica" />
+        <AssociationConnector Association="ModelTeniskiTurniri.UlaznicaProdaje" />
+        <AssociationConnector Association="ModelTeniskiTurniri.OrganizatorTurnir" />
+        <AssociationConnector Association="ModelTeniskiTurniri.ProdajeTurnir" />
+        <AssociationConnector Association="ModelTeniskiTurniri.GledalacProdaje" />
+        <AssociationConnector Association="ModelTeniskiTurniri.IgracUcestvuje" />
+        <AssociationConnector Association="ModelTeniskiTurniri.NagradaUcestvuje" />
+        <AssociationConnector Association="ModelTeniskiTurniri.UcestvujeMec" />
+        <AssociationConnector Association="ModelTeniskiTurniri.UcestvujeTurnir" />
+        <AssociationConnector Association="ModelTeniskiTurniri.UcestvujeOprema" />
+        <AssociationConnector Association="ModelTeniskiTurniri.TurnirKategorija" />
+        <AssociationConnector Association="ModelTeniskiTurniri.TurnirOdrzavanje" />
+        <AssociationConnector Association="ModelTeniskiTurniri.TurnirGledalac" />
+        <AssociationConnector Association="ModelTeniskiTurniri.MecStadion" />
+        <AssociationConnector Association="ModelTeniskiTurniri.KoloOdrzavanje" />
+        <AssociationConnector Association="ModelTeniskiTurniri.MecKolo" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,32 @@
+﻿<Window x:Class="TeniskiTurniriUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeniskiTurniriUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="730">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="tenis2.jpg"/>
+        </Grid.Background>
+
+        <Button x:Name="buttonTurnir" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Turniri" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding TurnirCommand}" />
+        <Button x:Name="buttonUlaznica" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Ulaznice" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding UlaznicaCommand}"/>
+        
+        <Button x:Name="buttonOrganizator" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Organizator" HorizontalAlignment="Left" Margin="190,10,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding OrganizatorCommand}"/>
+        <Button x:Name="buttonNagrada" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Nagrada" HorizontalAlignment="Left" Margin="190,110,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding NagradaCommand}"/>
+        <Button x:Name="buttonGledalac" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Gledalac" HorizontalAlignment="Left" Margin="190,210,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding GledalacCommand}"/>
+        <Button x:Name="buttonIgrac" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Igrac" HorizontalAlignment="Left" Margin="10,310,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding IgracCommand}"/>
+        <Button x:Name="buttonMec" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Mec" HorizontalAlignment="Left" Margin="370,110,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding MecCommand}" RenderTransformOrigin="0.55,1.157"/>
+        <Button x:Name="buttonKategorija" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Kategorija" HorizontalAlignment="Left" Margin="370,10,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding KategorijaCommand}"/>
+        <Button x:Name="buttonKolo" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Kolo" HorizontalAlignment="Left" Margin="370,210,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding KoloCommand}"/>
+        <Button x:Name="buttonOdrzavanje" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Odrzavanje" HorizontalAlignment="Left" Margin="190,310,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding OdrzavanjeCommand}"/>
+        <Button x:Name="buttonStadion" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Stadion" HorizontalAlignment="Left" Margin="550,10,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding StadionCommand}"/>
+        <Button x:Name="buttonOprema" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Oprema" HorizontalAlignment="Left" Margin="550,110,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding OpremaCommand}"/>
+        <Button x:Name="buttonProdaje" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Prodaje" HorizontalAlignment="Left" Margin="550,210,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding ProdajeCommand}"/>
+        <Button x:Name="buttonUcestvuje" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Ucestvuje" HorizontalAlignment="Left" Margin="370,310,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding UcestvujeCommand}"/>
+        <Button x:Name="buttinFunkcija" BorderBrush="Yellow" BorderThickness="4" Background="Transparent" Foreground="Yellow" FontSize="25" FontWeight="ExtraBold" Content="Funkcija" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" Width="165" Height="90" Command="{Binding FunkcijaCommand}" />
+
+    </Grid>
+</Window>

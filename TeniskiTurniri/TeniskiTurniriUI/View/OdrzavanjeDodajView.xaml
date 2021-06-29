@@ -1,0 +1,38 @@
+﻿<Window x:Class="TeniskiTurniriUI.View.OdrzavanjeDodajView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeniskiTurniriUI.View"
+        mc:Ignorable="d"
+         Title="OdrzavanjeDodajView" Height="420" Width="310" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="LightSkyBlue">
+        <Label Content="ID" Foreground="Blue" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="90"/>
+        <TextBox Text="{Binding Validacija.Odrzavanje.idod, UpdateSourceTrigger=PropertyChanged}" BorderBrush="Blue" BorderThickness="2" HorizontalAlignment="Left" Height="23" Margin="138,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+        <Label Content="{Binding Validacija.ValidationErrors[idod]}" Foreground="Red" VerticalAlignment="Top" Margin="10,36,10,0" Height="24" />
+
+        
+
+        <Label Content="Datum pocetka" Foreground="Blue" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.494,-0.906"/>
+        <TextBox Text="{Binding Validacija.Odrzavanje.datpo, UpdateSourceTrigger=PropertyChanged}" BorderBrush="Blue" BorderThickness="2" HorizontalAlignment="Left" Height="26" Margin="138,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" RenderTransformOrigin="0.487,-0.585"/>
+        <Label Content="{Binding Validacija.ValidationErrors[datpo]}" Foreground="Red" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,105,0,0" Width="284" Height="24" />
+
+        <Label Content="Datum zavrsetka" Foreground="Blue" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" Width="113"/>
+        <TextBox Text="{Binding Validacija.Odrzavanje.datzo, UpdateSourceTrigger=PropertyChanged}" BorderBrush="Blue" BorderThickness="2" HorizontalAlignment="Left" Height="26" Margin="138,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+        <Label Content="{Binding Validacija.ValidationErrors[datzo]}" Foreground="Red" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,173,0,0" Width="284" Height="26" />
+
+        <Label Content="Turnir" HorizontalAlignment="Left" Foreground="Blue" FontWeight="ExtraBold" Height="29" Margin="12,217,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.508,1.837"/>
+        <ComboBox HorizontalAlignment="Left" Height="29" Margin="138,217,0,0" VerticalAlignment="Top" Width="156"
+                  ItemsSource="{Binding SpisakTurnira, UpdateSourceTrigger=PropertyChanged}"
+                  SelectedValue="{Binding IzabraniTurnir, UpdateSourceTrigger=PropertyChanged}"/>
+        <Label Content="{Binding IzabraniTurnirGreska}" Foreground="Red" FontSize="10" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,263,0,0" Height="25" Width="282"/>
+
+
+
+        <Button x:Name="dodaj" Content="Dodaj" Foreground="Blue" FontSize="20" FontWeight="ExtraBold" Background="Transparent" BorderBrush="Blue" BorderThickness="4" HorizontalAlignment="Left" Margin="10,307,0,0" VerticalAlignment="Top" Width="75" Command="{Binding AddCommand}"/>
+        <Button x:Name="vratiSe" Content="Vrati se" Foreground="Blue" FontSize="20" FontWeight="ExtraBold" Background="Transparent" BorderBrush="blue" BorderThickness="4" HorizontalAlignment="Left" Margin="204,307,0,0" VerticalAlignment="Top" Width="90" Command="{Binding ExitCommand}"/>
+
+        <TextBlock x:Name="textBlockUspeh" TextWrapping="Wrap" TextAlignment="Center" Foreground="Green" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,351,0,0" Width="282" Height="29" />
+
+    </Grid>
+</Window>

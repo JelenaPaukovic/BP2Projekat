@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelTeniskiTurniri" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelTeniskiTurniriContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UlaznicaSet" EntityType="ModelTeniskiTurniri.Ulaznica" />
+    <EntitySet Name="OrganizatorSet" EntityType="ModelTeniskiTurniri.Organizator" />
+    <EntitySet Name="NagradaSet" EntityType="ModelTeniskiTurniri.Nagrada" />
+    <EntitySet Name="VipUlaznicaSet" EntityType="ModelTeniskiTurniri.VipUlaznica" />
+    <EntitySet Name="ObicnaUlaznicaSet" EntityType="ModelTeniskiTurniri.ObicnaUlaznica" />
+    <EntitySet Name="GledalacSet" EntityType="ModelTeniskiTurniri.Gledalac" />
+    <EntitySet Name="IgracSet" EntityType="ModelTeniskiTurniri.Igrac" />
+    <EntitySet Name="KategorijaSet" EntityType="ModelTeniskiTurniri.Kategorija" />
+    <EntitySet Name="StadionSet" EntityType="ModelTeniskiTurniri.Stadion" />
+    <EntitySet Name="OpremaSet" EntityType="ModelTeniskiTurniri.Oprema" />
+    <EntitySet Name="ProdajeSet" EntityType="ModelTeniskiTurniri.Prodaje" />
+    <EntitySet Name="UcestvujeSet" EntityType="ModelTeniskiTurniri.Ucestvuje" />
+    <EntitySet Name="TurnirSet" EntityType="ModelTeniskiTurniri.Turnir" />
+    <EntitySet Name="MecSet" EntityType="ModelTeniskiTurniri.Mec" />
+    <EntitySet Name="KoloSet" EntityType="ModelTeniskiTurniri.Kolo" />
+    <EntitySet Name="OdrzavanjeSet" EntityType="ModelTeniskiTurniri.Odrzavanje" />
+    <AssociationSet Name="UlaznicaVipUlaznica" Association="ModelTeniskiTurniri.UlaznicaVipUlaznica">
+      <End Role="Ulaznica" EntitySet="UlaznicaSet" />
+      <End Role="VipUlaznica" EntitySet="VipUlaznicaSet" />
+    </AssociationSet>
+    <AssociationSet Name="UlaznicaObicnaUlaznica" Association="ModelTeniskiTurniri.UlaznicaObicnaUlaznica">
+      <End Role="Ulaznica" EntitySet="UlaznicaSet" />
+      <End Role="ObicnaUlaznica" EntitySet="ObicnaUlaznicaSet" />
+    </AssociationSet>
+    <AssociationSet Name="UlaznicaProdaje" Association="ModelTeniskiTurniri.UlaznicaProdaje">
+      <End Role="Ulaznica" EntitySet="UlaznicaSet" />
+      <End Role="Prodaje" EntitySet="ProdajeSet" />
+    </AssociationSet>
+    <AssociationSet Name="OrganizatorTurnir" Association="ModelTeniskiTurniri.OrganizatorTurnir">
+      <End Role="Organizator" EntitySet="OrganizatorSet" />
+      <End Role="Turnir" EntitySet="TurnirSet" />
+    </AssociationSet>
+    <AssociationSet Name="ProdajeTurnir" Association="ModelTeniskiTurniri.ProdajeTurnir">
+      <End Role="Prodaje" EntitySet="ProdajeSet" />
+      <End Role="Turnir" EntitySet="TurnirSet" />
+    </AssociationSet>
+    <AssociationSet Name="GledalacProdaje" Association="ModelTeniskiTurniri.GledalacProdaje">
+      <End Role="Gledalac" EntitySet="GledalacSet" />
+      <End Role="Prodaje" EntitySet="ProdajeSet" />
+    </AssociationSet>
+    <AssociationSet Name="IgracUcestvuje" Association="ModelTeniskiTurniri.IgracUcestvuje">
+      <End Role="Igrac" EntitySet="IgracSet" />
+      <End Role="Ucestvuje" EntitySet="UcestvujeSet" />
+    </AssociationSet>
+    <AssociationSet Name="NagradaUcestvuje" Association="ModelTeniskiTurniri.NagradaUcestvuje">
+      <End Role="Nagrada" EntitySet="NagradaSet" />
+      <End Role="Ucestvuje" EntitySet="UcestvujeSet" />
+    </AssociationSet>
+    <AssociationSet Name="UcestvujeMec" Association="ModelTeniskiTurniri.UcestvujeMec">
+      <End Role="Ucestvuje" EntitySet="UcestvujeSet" />
+      <End Role="Mec" EntitySet="MecSet" />
+    </AssociationSet>
+    <AssociationSet Name="UcestvujeTurnir" Association="ModelTeniskiTurniri.UcestvujeTurnir">
+      <End Role="Ucestvuje" EntitySet="UcestvujeSet" />
+      <End Role="Turnir" EntitySet="TurnirSet" />
+    </AssociationSet>
+    <AssociationSet Name="UcestvujeOprema" Association="ModelTeniskiTurniri.UcestvujeOprema">
+      <End Role="Ucestvuje" EntitySet="UcestvujeSet" />
+      <End Role="Oprema" EntitySet="OpremaSet" />
+    </AssociationSet>
+    <AssociationSet Name="TurnirKategorija" Association="ModelTeniskiTurniri.TurnirKategorija">
+      <End Role="Turnir" EntitySet="TurnirSet" />
+      <End Role="Kategorija" EntitySet="KategorijaSet" />
+    </AssociationSet>
+    <AssociationSet Name="TurnirOdrzavanje" Association="ModelTeniskiTurniri.TurnirOdrzavanje">
+      <End Role="Turnir" EntitySet="TurnirSet" />
+      <End Role="Odrzavanje" EntitySet="OdrzavanjeSet" />
+    </AssociationSet>
+    <AssociationSet Name="TurnirGledalac" Association="ModelTeniskiTurniri.TurnirGledalac">
+      <End Role="Turnir" EntitySet="TurnirSet" />
+      <End Role="Gledalac" EntitySet="GledalacSet" />
+    </AssociationSet>
+    <AssociationSet Name="MecStadion" Association="ModelTeniskiTurniri.MecStadion">
+      <End Role="Mec" EntitySet="MecSet" />
+      <End Role="Stadion" EntitySet="StadionSet" />
+    </AssociationSet>
+    <AssociationSet Name="KoloOdrzavanje" Association="ModelTeniskiTurniri.KoloOdrzavanje">
+      <End Role="Kolo" EntitySet="KoloSet" />
+      <End Role="Odrzavanje" EntitySet="OdrzavanjeSet" />
+    </AssociationSet>
+    <AssociationSet Name="MecKolo" Association="ModelTeniskiTurniri.MecKolo">
+      <End Role="Mec" EntitySet="MecSet" />
+      <End Role="Kolo" EntitySet="KoloSet" />
+    </AssociationSet>
+    <FunctionImport Name="Funkcija1" IsComposable="true" ReturnType="Collection(String)">
+      <Parameter Name="nazivmesta" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Procedure1">
+      <Parameter Name="id1" Mode="In" Type="Int32" />
+      <Parameter Name="naziv" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Ulaznica">
+    <Key>
+      <PropertyRef Name="idu" />
+    </Key>
+    <Property Name="idu" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="datom" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="vreme" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="brreda" Type="Int32" Nullable="false" />
+    <Property Name="brsed" Type="Int32" Nullable="false" />
+    <Property Name="tipu" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="VipUlaznica" Relationship="ModelTeniskiTurniri.UlaznicaVipUlaznica" FromRole="Ulaznica" ToRole="VipUlaznica" />
+    <NavigationProperty Name="ObicnaUlaznica" Relationship="ModelTeniskiTurniri.UlaznicaObicnaUlaznica" FromRole="Ulaznica" ToRole="ObicnaUlaznica" />
+    <NavigationProperty Name="Prodaje" Relationship="ModelTeniskiTurniri.UlaznicaProdaje" FromRole="Ulaznica" ToRole="Prodaje" />
+  </EntityType>
+  <EntityType Name="Organizator">
+    <Key>
+      <PropertyRef Name="idor" />
+    </Key>
+    <Property Name="idor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="nazor" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Turnir" Relationship="ModelTeniskiTurniri.OrganizatorTurnir" FromRole="Organizator" ToRole="Turnir" />
+  </EntityType>
+  <EntityType Name="Nagrada">
+    <Key>
+      <PropertyRef Name="idn" />
+    </Key>
+    <Property Name="idn" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nazn" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Ucestvuje" Relationship="ModelTeniskiTurniri.NagradaUcestvuje" FromRole="Nagrada" ToRole="Ucestvuje" />
+  </EntityType>
+  <EntityType Name="VipUlaznica">
+    <Key>
+      <PropertyRef Name="idvu" />
+    </Key>
+    <Property Name="oznv" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="idvu" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Ulaznica" Relationship="ModelTeniskiTurniri.UlaznicaVipUlaznica" FromRole="VipUlaznica" ToRole="Ulaznica" />
+  </EntityType>
+  <EntityType Name="ObicnaUlaznica">
+    <Key>
+      <PropertyRef Name="idou" />
+    </Key>
+    <Property Name="ozno" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="idou" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Ulaznica" Relationship="ModelTeniskiTurniri.UlaznicaObicnaUlaznica" FromRole="ObicnaUlaznica" ToRole="Ulaznica" />
+  </EntityType>
+  <EntityType Name="Gledalac">
+    <Key>
+      <PropertyRef Name="idg" />
+    </Key>
+    <Property Name="idg" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <NavigationProperty Name="Prodaje" Relationship="ModelTeniskiTurniri.GledalacProdaje" FromRole="Gledalac" ToRole="Prodaje" />
+    <NavigationProperty Name="Turnir" Relationship="ModelTeniskiTurniri.TurnirGledalac" FromRole="Gledalac" ToRole="Turnir" />
+  </EntityType>
+  <EntityType Name="Igrac">
+    <Key>
+      <PropertyRef Name="idig" />
+    </Key>
+    <Property Name="idig" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="imei" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="przi" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="datri" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="drzi" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Ucestvuje" Relationship="ModelTeniskiTurniri.IgracUcestvuje" FromRole="Igrac" ToRole="Ucestvuje" />
+  </EntityType>
+  <EntityType Name="Kategorija">
+    <Key>
+      <PropertyRef Name="idkat" />
+    </Key>
+    <Property Name="idkat" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="nazkat" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Turnir" Relationship="ModelTeniskiTurniri.TurnirKategorija" FromRole="Kategorija" ToRole="Turnir" />
+  </EntityType>
+  <EntityType Name="Stadion">
+    <Key>
+      <PropertyRef Name="idst" />
+    </Key>
+    <Property Name="idst" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="nazst" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Mec" Relationship="ModelTeniskiTurniri.MecStadion" FromRole="Stadion" ToRole="Mec" />
+  </EntityType>
+  <EntityType Name="Oprema">
+    <Key>
+      <PropertyRef Name="ido" />
+    </Key>
+    <Property Name="ido" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="nazo" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Ucestvuje" Relationship="ModelTeniskiTurniri.UcestvujeOprema" FromRole="Oprema" ToRole="Ucestvuje" />
+  </EntityType>
+  <EntityType Name="Prodaje">
+    <Key>
+      <PropertyRef Name="Ulaznica_idu" />
+      <PropertyRef Name="Turnir_idtur" />
+    </Key>
+    <NavigationProperty Name="Ulaznica" Relationship="ModelTeniskiTurniri.UlaznicaProdaje" FromRole="Prodaje" ToRole="Ulaznica" />
+    <Property Name="Ulaznica_idu" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Turnir" Relationship="ModelTeniskiTurniri.ProdajeTurnir" FromRole="Prodaje" ToRole="Turnir" />
+    <Property Name="Turnir_idtur" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Gledalac" Relationship="ModelTeniskiTurniri.GledalacProdaje" FromRole="Prodaje" ToRole="Gledalac" />
+    <Property Name="Gledalac_idg" Type="Int32" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Ucestvuje">
+    <Key>
+      <PropertyRef Name="Igrac_idig" />
+      <PropertyRef Name="Turnir_idtur" />
+    </Key>
+    <NavigationProperty Name="Igrac" Relationship="ModelTeniskiTurniri.IgracUcestvuje" FromRole="Ucestvuje" ToRole="Igrac" />
+    <Property Name="Igrac_idig" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Nagrada" Relationship="ModelTeniskiTurniri.NagradaUcestvuje" FromRole="Ucestvuje" ToRole="Nagrada" />
+    <Property Name="Nagrada_idn" Type="Int32" Nullable="true" />
+    <NavigationProperty Name="Mec" Relationship="ModelTeniskiTurniri.UcestvujeMec" FromRole="Ucestvuje" ToRole="Mec" />
+    <NavigationProperty Name="Turnir" Relationship="ModelTeniskiTurniri.UcestvujeTurnir" FromRole="Ucestvuje" ToRole="Turnir" />
+    <Property Name="Turnir_idtur" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Oprema" Relationship="ModelTeniskiTurniri.UcestvujeOprema" FromRole="Ucestvuje" ToRole="Oprema" />
+    <Property Name="Oprema_ido" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Turnir">
+    <Key>
+      <PropertyRef Name="idtur" />
+    </Key>
+    <Property Name="idtur" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="naztur" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="mestotur" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="datpt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="datzt" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Organizator" Relationship="ModelTeniskiTurniri.OrganizatorTurnir" FromRole="Turnir" ToRole="Organizator" />
+    <NavigationProperty Name="Prodaje" Relationship="ModelTeniskiTurniri.ProdajeTurnir" FromRole="Turnir" ToRole="Prodaje" />
+    <NavigationProperty Name="Ucestvuje" Relationship="ModelTeniskiTurniri.UcestvujeTurnir" FromRole="Turnir" ToRole="Ucestvuje" />
+    <NavigationProperty Name="Kategorija" Relationship="ModelTeniskiTurniri.TurnirKategorija" FromRole="Turnir" ToRole="Kategorija" />
+    <Property Name="Kategorija_idkat" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Odrzavanje" Relationship="ModelTeniskiTurniri.TurnirOdrzavanje" FromRole="Turnir" ToRole="Odrzavanje" />
+    <NavigationProperty Name="Gledalac" Relationship="ModelTeniskiTurniri.TurnirGledalac" FromRole="Turnir" ToRole="Gledalac" />
+  </EntityType>
+  <EntityType Name="Mec">
+    <Key>
+      <PropertyRef Name="idm" />
+    </Key>
+    <Property Name="idm" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="datom" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="brg" Type="Int32" Nullable="false" />
+    <Property Name="stdm" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="imeig" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="przig" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Ucestvuje" Relationship="ModelTeniskiTurniri.UcestvujeMec" FromRole="Mec" ToRole="Ucestvuje" />
+    <NavigationProperty Name="Stadion" Relationship="ModelTeniskiTurniri.MecStadion" FromRole="Mec" ToRole="Stadion" />
+    <Property Name="Stadion_idst" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Kolo" Relationship="ModelTeniskiTurniri.MecKolo" FromRole="Mec" ToRole="Kolo" />
+    <Property Name="Kolo_idk" Type="Int32" Nullable="false" />
+    <Property Name="KoloOdrzavanje_idod" Type="Int32" Nullable="false" />
+    <Property Name="KoloOdrzavanjeTurnir_idtur" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kolo">
+    <Key>
+      <PropertyRef Name="idk" />
+      <PropertyRef Name="Odrzavanje_idod" />
+      <PropertyRef Name="OdrzavanjeTurnir_idtur" />
+    </Key>
+    <Property Name="idk" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <NavigationProperty Name="Odrzavanje" Relationship="ModelTeniskiTurniri.KoloOdrzavanje" FromRole="Kolo" ToRole="Odrzavanje" />
+    <Property Name="Odrzavanje_idod" Type="Int32" Nullable="false" />
+    <Property Name="OdrzavanjeTurnir_idtur" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Mec" Relationship="ModelTeniskiTurniri.MecKolo" FromRole="Kolo" ToRole="Mec" />
+  </EntityType>
+  <EntityType Name="Odrzavanje">
+    <Key>
+      <PropertyRef Name="idod" />
+      <PropertyRef Name="Turnir_idtur" />
+    </Key>
+    <Property Name="idod" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="datpo" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="datzo" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Turnir" Relationship="ModelTeniskiTurniri.TurnirOdrzavanje" FromRole="Odrzavanje" ToRole="Turnir" />
+    <Property Name="Turnir_idtur" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Kolo" Relationship="ModelTeniskiTurniri.KoloOdrzavanje" FromRole="Odrzavanje" ToRole="Kolo" />
+  </EntityType>
+  <Association Name="UlaznicaVipUlaznica">
+    <End Type="ModelTeniskiTurniri.Ulaznica" Role="Ulaznica" Multiplicity="1" />
+    <End Type="ModelTeniskiTurniri.VipUlaznica" Role="VipUlaznica" Multiplicity="0..1" />
+  </Association>
+  <Association Name="UlaznicaObicnaUlaznica">
+    <End Type="ModelTeniskiTurniri.Ulaznica" Role="Ulaznica" Multiplicity="1" />
+    <End Type="ModelTeniskiTurniri.ObicnaUlaznica" Role="ObicnaUlaznica" Multiplicity="0..1" />
+  </Association>
+  <Association Name="UlaznicaProdaje">
+    <End Type="ModelTeniskiTurniri.Ulaznica" Role="Ulaznica" Multiplicity="1" />
+    <End Type="ModelTeniskiTurniri.Prodaje" Role="Prodaje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ulaznica">
+        <PropertyRef Name="idu" />
+      </Principal>
+      <Dependent Role="Prodaje">
+        <PropertyRef Name="Ulaznica_idu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OrganizatorTurnir">
+    <End Type="ModelTeniskiTurniri.Organizator" Role="Organizator" Multiplicity="*" />
+    <End Type="ModelTeniskiTurniri.Turnir" Role="Turnir" Multiplicity="*" />
+  </Association>
+  <Association Name="ProdajeTurnir">
+    <End Type="ModelTeniskiTurniri.Prodaje" Role="Prodaje" Multiplicity="*" />
+    <End Type="ModelTeniskiTurniri.Turnir" Role="Turnir" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Turnir">
+        <PropertyRef Name="idtur" />
+      </Principal>
+      <Dependent Role="Prodaje">
+        <PropertyRef Name="Turnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GledalacProdaje">
+    <End Type="ModelTeniskiTurniri.Gledalac" Role="Gledalac" Multiplicity="0..1" />
+    <End Type="ModelTeniskiTurniri.Prodaje" Role="Prodaje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gledalac">
+        <PropertyRef Name="idg" />
+      </Principal>
+      <Dependent Role="Prodaje">
+        <PropertyRef Name="Gledalac_idg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="IgracUcestvuje">
+    <End Type="ModelTeniskiTurniri.Igrac" Role="Igrac" Multiplicity="1" />
+    <End Type="ModelTeniskiTurniri.Ucestvuje" Role="Ucestvuje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Igrac">
+        <PropertyRef Name="idig" />
+      </Principal>
+      <Dependent Role="Ucestvuje">
+        <PropertyRef Name="Igrac_idig" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="NagradaUcestvuje">
+    <End Type="ModelTeniskiTurniri.Nagrada" Role="Nagrada" Multiplicity="0..1" />
+    <End Type="ModelTeniskiTurniri.Ucestvuje" Role="Ucestvuje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nagrada">
+        <PropertyRef Name="idn" />
+      </Principal>
+      <Dependent Role="Ucestvuje">
+        <PropertyRef Name="Nagrada_idn" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UcestvujeMec">
+    <End Type="ModelTeniskiTurniri.Ucestvuje" Role="Ucestvuje" Multiplicity="*" />
+    <End Type="ModelTeniskiTurniri.Mec" Role="Mec" Multiplicity="*" />
+  </Association>
+  <Association Name="UcestvujeTurnir">
+    <End Type="ModelTeniskiTurniri.Ucestvuje" Role="Ucestvuje" Multiplicity="*" />
+    <End Type="ModelTeniskiTurniri.Turnir" Role="Turnir" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Turnir">
+        <PropertyRef Name="idtur" />
+      </Principal>
+      <Dependent Role="Ucestvuje">
+        <PropertyRef Name="Turnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UcestvujeOprema">
+    <End Type="ModelTeniskiTurniri.Ucestvuje" Role="Ucestvuje" Multiplicity="*" />
+    <End Type="ModelTeniskiTurniri.Oprema" Role="Oprema" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Oprema">
+        <PropertyRef Name="ido" />
+      </Principal>
+      <Dependent Role="Ucestvuje">
+        <PropertyRef Name="Oprema_ido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TurnirKategorija">
+    <End Type="ModelTeniskiTurniri.Turnir" Role="Turnir" Multiplicity="*" />
+    <End Type="ModelTeniskiTurniri.Kategorija" Role="Kategorija" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Kategorija">
+        <PropertyRef Name="idkat" />
+      </Principal>
+      <Dependent Role="Turnir">
+        <PropertyRef Name="Kategorija_idkat" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TurnirOdrzavanje">
+    <End Type="ModelTeniskiTurniri.Turnir" Role="Turnir" Multiplicity="1" />
+    <End Type="ModelTeniskiTurniri.Odrzavanje" Role="Odrzavanje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Turnir">
+        <PropertyRef Name="idtur" />
+      </Principal>
+      <Dependent Role="Odrzavanje">
+        <PropertyRef Name="Turnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TurnirGledalac">
+    <End Type="ModelTeniskiTurniri.Turnir" Role="Turnir" Multiplicity="*" />
+    <End Type="ModelTeniskiTurniri.Gledalac" Role="Gledalac" Multiplicity="*" />
+  </Association>
+  <Association Name="MecStadion">
+    <End Type="ModelTeniskiTurniri.Mec" Role="Mec" Multiplicity="*" />
+    <End Type="ModelTeniskiTurniri.Stadion" Role="Stadion" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Stadion">
+        <PropertyRef Name="idst" />
+      </Principal>
+      <Dependent Role="Mec">
+        <PropertyRef Name="Stadion_idst" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="KoloOdrzavanje">
+    <End Type="ModelTeniskiTurniri.Kolo" Role="Kolo" Multiplicity="*" />
+    <End Type="ModelTeniskiTurniri.Odrzavanje" Role="Odrzavanje" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Odrzavanje">
+        <PropertyRef Name="idod" />
+        <PropertyRef Name="Turnir_idtur" />
+      </Principal>
+      <Dependent Role="Kolo">
+        <PropertyRef Name="Odrzavanje_idod" />
+        <PropertyRef Name="OdrzavanjeTurnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MecKolo">
+    <End Type="ModelTeniskiTurniri.Mec" Role="Mec" Multiplicity="*" />
+    <End Type="ModelTeniskiTurniri.Kolo" Role="Kolo" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Kolo">
+        <PropertyRef Name="idk" />
+        <PropertyRef Name="Odrzavanje_idod" />
+        <PropertyRef Name="OdrzavanjeTurnir_idtur" />
+      </Principal>
+      <Dependent Role="Mec">
+        <PropertyRef Name="Kolo_idk" />
+        <PropertyRef Name="KoloOdrzavanje_idod" />
+        <PropertyRef Name="KoloOdrzavanjeTurnir_idtur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelTeniskiTurniriStoreContainer" CdmEntityContainer="ModelTeniskiTurniriContainer">
+    <EntitySetMapping Name="UlaznicaSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Ulaznica)">
+        <MappingFragment StoreEntitySet="UlaznicaSet">
+          <ScalarProperty Name="idu" ColumnName="idu" />
+          <ScalarProperty Name="datom" ColumnName="datom" />
+          <ScalarProperty Name="vreme" ColumnName="vreme" />
+          <ScalarProperty Name="brreda" ColumnName="brreda" />
+          <ScalarProperty Name="brsed" ColumnName="brsed" />
+          <ScalarProperty Name="tipu" ColumnName="tipu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrganizatorSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Organizator)">
+        <MappingFragment StoreEntitySet="OrganizatorSet">
+          <ScalarProperty Name="idor" ColumnName="idor" />
+          <ScalarProperty Name="nazor" ColumnName="nazor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NagradaSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Nagrada)">
+        <MappingFragment StoreEntitySet="NagradaSet">
+          <ScalarProperty Name="idn" ColumnName="idn" />
+          <ScalarProperty Name="nazn" ColumnName="nazn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VipUlaznicaSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.VipUlaznica)">
+        <MappingFragment StoreEntitySet="VipUlaznicaSet">
+          <ScalarProperty Name="idvu" ColumnName="idvu" />
+          <ScalarProperty Name="oznv" ColumnName="oznv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ObicnaUlaznicaSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.ObicnaUlaznica)">
+        <MappingFragment StoreEntitySet="ObicnaUlaznicaSet">
+          <ScalarProperty Name="idou" ColumnName="idou" />
+          <ScalarProperty Name="ozno" ColumnName="ozno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GledalacSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Gledalac)">
+        <MappingFragment StoreEntitySet="GledalacSet">
+          <ScalarProperty Name="idg" ColumnName="idg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IgracSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Igrac)">
+        <MappingFragment StoreEntitySet="IgracSet">
+          <ScalarProperty Name="idig" ColumnName="idig" />
+          <ScalarProperty Name="imei" ColumnName="imei" />
+          <ScalarProperty Name="przi" ColumnName="przi" />
+          <ScalarProperty Name="datri" ColumnName="datri" />
+          <ScalarProperty Name="drzi" ColumnName="drzi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KategorijaSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Kategorija)">
+        <MappingFragment StoreEntitySet="KategorijaSet">
+          <ScalarProperty Name="idkat" ColumnName="idkat" />
+          <ScalarProperty Name="nazkat" ColumnName="nazkat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StadionSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Stadion)">
+        <MappingFragment StoreEntitySet="StadionSet">
+          <ScalarProperty Name="idst" ColumnName="idst" />
+          <ScalarProperty Name="nazst" ColumnName="nazst" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OpremaSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Oprema)">
+        <MappingFragment StoreEntitySet="OpremaSet">
+          <ScalarProperty Name="ido" ColumnName="ido" />
+          <ScalarProperty Name="nazo" ColumnName="nazo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProdajeSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Prodaje)">
+        <MappingFragment StoreEntitySet="ProdajeSet">
+          <ScalarProperty Name="Ulaznica_idu" ColumnName="Ulaznica_idu" />
+          <ScalarProperty Name="Turnir_idtur" ColumnName="Turnir_idtur" />
+          <ScalarProperty Name="Gledalac_idg" ColumnName="Gledalac_idg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UcestvujeSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Ucestvuje)">
+        <MappingFragment StoreEntitySet="UcestvujeSet">
+          <ScalarProperty Name="Igrac_idig" ColumnName="Igrac_idig" />
+          <ScalarProperty Name="Turnir_idtur" ColumnName="Turnir_idtur" />
+          <ScalarProperty Name="Nagrada_idn" ColumnName="Nagrada_idn" />
+          <ScalarProperty Name="Oprema_ido" ColumnName="Oprema_ido" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TurnirSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Turnir)">
+        <MappingFragment StoreEntitySet="TurnirSet">
+          <ScalarProperty Name="idtur" ColumnName="idtur" />
+          <ScalarProperty Name="naztur" ColumnName="naztur" />
+          <ScalarProperty Name="mestotur" ColumnName="mestotur" />
+          <ScalarProperty Name="datpt" ColumnName="datpt" />
+          <ScalarProperty Name="datzt" ColumnName="datzt" />
+          <ScalarProperty Name="Kategorija_idkat" ColumnName="Kategorija_idkat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MecSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Mec)">
+        <MappingFragment StoreEntitySet="MecSet">
+          <ScalarProperty Name="idm" ColumnName="idm" />
+          <ScalarProperty Name="datom" ColumnName="datom" />
+          <ScalarProperty Name="brg" ColumnName="brg" />
+          <ScalarProperty Name="stdm" ColumnName="stdm" />
+          <ScalarProperty Name="imeig" ColumnName="imeig" />
+          <ScalarProperty Name="przig" ColumnName="przig" />
+          <ScalarProperty Name="Stadion_idst" ColumnName="Stadion_idst" />
+          <ScalarProperty Name="Kolo_idk" ColumnName="Kolo_idk" />
+          <ScalarProperty Name="KoloOdrzavanje_idod" ColumnName="KoloOdrzavanje_idod" />
+          <ScalarProperty Name="KoloOdrzavanjeTurnir_idtur" ColumnName="KoloOdrzavanjeTurnir_idtur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KoloSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Kolo)">
+        <MappingFragment StoreEntitySet="KoloSet">
+          <ScalarProperty Name="idk" ColumnName="idk" />
+          <ScalarProperty Name="Odrzavanje_idod" ColumnName="Odrzavanje_idod" />
+          <ScalarProperty Name="OdrzavanjeTurnir_idtur" ColumnName="OdrzavanjeTurnir_idtur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OdrzavanjeSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelTeniskiTurniri.Odrzavanje)">
+        <MappingFragment StoreEntitySet="OdrzavanjeSet">
+          <ScalarProperty Name="idod" ColumnName="idod" />
+          <ScalarProperty Name="Turnir_idtur" ColumnName="Turnir_idtur" />
+          <ScalarProperty Name="datpo" ColumnName="datpo" />
+          <ScalarProperty Name="datzo" ColumnName="datzo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UlaznicaVipUlaznica" TypeName="ModelTeniskiTurniri.UlaznicaVipUlaznica" StoreEntitySet="VipUlaznicaSet">
+      <EndProperty Name="Ulaznica">
+        <ScalarProperty Name="idu" ColumnName="Ulaznica_idu" />
+      </EndProperty>
+      <EndProperty Name="VipUlaznica">
+        <ScalarProperty Name="idvu" ColumnName="idvu" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UlaznicaObicnaUlaznica" TypeName="ModelTeniskiTurniri.UlaznicaObicnaUlaznica" StoreEntitySet="ObicnaUlaznicaSet">
+      <EndProperty Name="Ulaznica">
+        <ScalarProperty Name="idu" ColumnName="Ulaznica_idu" />
+      </EndProperty>
+      <EndProperty Name="ObicnaUlaznica">
+        <ScalarProperty Name="idou" ColumnName="idou" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="OrganizatorTurnir" TypeName="ModelTeniskiTurniri.OrganizatorTurnir" StoreEntitySet="OrganizatorTurnir">
+      <EndProperty Name="Organizator">
+        <ScalarProperty Name="idor" ColumnName="Organizator_idor" />
+      </EndProperty>
+      <EndProperty Name="Turnir">
+        <ScalarProperty Name="idtur" ColumnName="Turnir_idtur" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UcestvujeMec" TypeName="ModelTeniskiTurniri.UcestvujeMec" StoreEntitySet="UcestvujeMec">
+      <EndProperty Name="Ucestvuje">
+        <ScalarProperty Name="Igrac_idig" ColumnName="Ucestvuje_Igrac_idig" />
+        <ScalarProperty Name="Turnir_idtur" ColumnName="Ucestvuje_Turnir_idtur" />
+      </EndProperty>
+      <EndProperty Name="Mec">
+        <ScalarProperty Name="idm" ColumnName="Mec_idm" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="TurnirGledalac" TypeName="ModelTeniskiTurniri.TurnirGledalac" StoreEntitySet="TurnirGledalac">
+      <EndProperty Name="Turnir">
+        <ScalarProperty Name="idtur" ColumnName="Turnir_idtur" />
+      </EndProperty>
+      <EndProperty Name="Gledalac">
+        <ScalarProperty Name="idg" ColumnName="Gledalac_idg" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="Funkcija1" FunctionName="ModelTeniskiTurniri.Store.Funkcija1" />
+    <FunctionImportMapping FunctionImportName="Procedure1" FunctionName="ModelTeniskiTurniri.Store.Procedure1" />
+  </EntityContainerMapping>
+</Mapping>
